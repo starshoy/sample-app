@@ -63,7 +63,8 @@
       },
       "in_game": {
         "file": "in_game.html",
-        "in_game_only": true,
+        "desktop_only": true,
+        "native_window": true,
         "focus_game_takeover": "ReleaseOnHidden",
         "focus_game_takeover_release_hotkey": "sample_app_ts_showhide",
         "resizable": true,
@@ -95,7 +96,8 @@
         21640,
         7314,
         21626,
-        8954
+        8954,
+        21566
       ]
     },
     "game_events": [
@@ -112,7 +114,8 @@
       21640,
       7314,
       21626,
-      8954
+      8954,
+      21566
     ],
     "launch_events": [
       {
@@ -132,7 +135,8 @@
             21640,
             7314,
             21626,
-            8954
+            8954,
+            21566
           ]
         },
         "start_minimized": true

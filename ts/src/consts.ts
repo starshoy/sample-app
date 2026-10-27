@@ -233,6 +233,23 @@ export const kGamesFeatures = new Map<number, string[]>([
       'match_info'
     ]
   ],
+  // Apex Legends
+    [
+    21566,
+    [
+      'gep_internal',
+      'game_info',
+      'match_info',
+      'match_state',
+      'match_summary',
+      'me',
+      'team',
+      'kill',
+      'damage',
+      'death',
+      'revive'
+    ]
+  ]
 ]);
 
 export const kGameClassIds = Array.from(kGamesFeatures.keys());
